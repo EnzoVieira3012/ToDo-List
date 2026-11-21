@@ -47,6 +47,7 @@ export function Modal({
         className="fixed inset-0 bg-black/50 z-40 animate-fade-in"
         onClick={closeOnOverlayClick ? onClose : undefined}
         aria-hidden="true"
+        data-testid="modal-overlay"
       />
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div
