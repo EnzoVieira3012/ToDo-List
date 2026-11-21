@@ -1,0 +1,45 @@
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Documentation (not needed in images)
+README.md
+ARCHITECTURE.md
+CONTRIBUTING.md
+PLANO_ACAO.md
+docs/
+
+# Backend
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/*.log
+
+# Test coverage
+**/coverage/
+**/jacoco/
+**/test-results/
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
