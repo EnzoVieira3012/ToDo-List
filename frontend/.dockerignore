@@ -1,0 +1,51 @@
+# Build artifacts
+dist/
+build/
+*.local
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# Documentation (not needed in image)
+README.md
+ARCHITECTURE.md
+CONTRIBUTING.md
+PLANO_ACAO.md
+docs/
+
+# Test
+coverage/
+.nyc_output/
+
+# Misc
+*.log
+*.tsbuildinfo
