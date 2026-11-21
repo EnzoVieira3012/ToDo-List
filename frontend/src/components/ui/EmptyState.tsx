@@ -26,7 +26,7 @@ export function EmptyState({ icon = 'default', title, description, action, class
 
   return (
     <div className={cn('flex flex-col items-center justify-center py-12 px-4 text-center', className)}>
-      <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mb-4 text-gray-400">
+      <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mb-4 text-gray-400" data-testid="empty-state-icon">
         <Icon className="w-8 h-8" />
       </div>
       <h3 className="text-lg font-medium text-gray-900">{title}</h3>
