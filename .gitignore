@@ -8,3 +8,9 @@ PLANO_ACAO.md
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment files (local overrides)
+.env
+.env.local
+.env.*.local
+*.env
