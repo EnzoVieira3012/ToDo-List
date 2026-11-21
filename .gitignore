@@ -1,0 +1,10 @@
+# Project docs (not for git)
+PLANO_ACAO.md
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
